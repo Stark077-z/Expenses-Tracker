@@ -2,15 +2,15 @@
   "name": "expeses-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stark077-z.github.io/Expenses-Tracker",
+  "homepage": "https://stark077-z.github.io/Expenses-Tracker/",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "chart.js": "^4.4.7",
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
+    "react": "^18.3.1",
     "react-chartjs-2": "^5.3.0",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.3.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {
