@@ -5,12 +5,12 @@ import { Doughnut } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend, DoughnutController);
 
 export default function ExpensesChart({ expenses = [] }) {
-  // Ensure expenses is always an array
+ 
   const categories = expenses
     .map((expense) => expense.category)
     .filter((category, index, self) => self.indexOf(category) === index);
 
-  // Calculate amounts for each category
+  
   const amounts = categories.map((category) =>
     expenses
       .filter((expense) => expense.category === category)

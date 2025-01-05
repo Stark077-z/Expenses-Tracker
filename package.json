@@ -2,7 +2,7 @@
   "name": "expeses-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stark077-z.github.io/Expenses-Tracker/",
+  "homepage": "https://stark077-z.github.io/Expenses-Tracker",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
