@@ -107,6 +107,7 @@ export default function ExpensesChart({ expenses = [] }) {
             </svg>
           </div>
           <p className="text-sm underline font-medium">No expenses yet</p>
+          <p className="text-xs underline font-medium">No expenses yet</p>
         </div>
       ) : (
         <div className="relative flex justify-center items-center" style={{ height: '400px' }}>
